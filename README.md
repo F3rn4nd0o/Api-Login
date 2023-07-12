@@ -14,6 +14,10 @@ Aguarde até que todos os contêineres sejam criados e iniciados. Você pode ver
 
 $ docker ps
 
+Depois de executar tudo acima entre no diretório raiz do projeto e crie as migrations:
+
+$ npx prisma migrate dev
+
 Uma vez que todos os contêineres estejam em execução, a API Solid estará pronta para uso.
 
 Se você desejar encerrar a execução da API Solid e remover os contêineres, execute o seguinte comando:
