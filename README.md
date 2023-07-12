@@ -4,22 +4,6 @@ Docker: Instalação do Docker
 
 Navegue até o diretório raiz do projeto:
 cd api-solid
-
-
-Abra o arquivo docker-compose.yml e verifique se o conteúdo é semelhante ao seguinte:
-yaml
-Copy code
-version: '3'
-
-services:
-  api-solid-pg:
-    image: bitnami/postgresql
-    ports:
-      - 5432:5432
-    environment:
-      - POSTGRESQL_USERNAME=docker
-      - POSTGRESQL_PASSWORD=docker
-      - POSTGRESQL_DATABASE=apisolid
       
 Execute o seguinte comando para gerar os contêineres do Docker:
 docker-compose up -d
