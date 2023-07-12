@@ -6,7 +6,7 @@ app.register(fastifyCors)
 
 app
   .listen({
-    host: '0.0.0.0',
+    host: '192.168.0.49',
     port: env.PORT,
   })
   .then(() => {
