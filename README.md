@@ -1,5 +1,3 @@
-API Solid - Documentação
-Esta é uma API desenvolvida para autenticação de usuários. Ela utiliza Docker para executar o banco de dados PostgreSQL usando a imagem bitnami/postgresql e o Prisma para interagir com o banco de dados.
 
 Pré-requisitos:
 Docker: Instalação do Docker
