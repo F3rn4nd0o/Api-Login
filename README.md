@@ -3,6 +3,7 @@ Pré-requisitos:
 Docker: Instalação do Docker
 
 Navegue até o diretório raiz do projeto:
+
 $ cd api-solid
       
 Execute o seguinte comando para gerar os contêineres do Docker:
